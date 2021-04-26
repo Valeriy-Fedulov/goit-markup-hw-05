@@ -561,8 +561,8 @@ footer {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port .item:hover,
-.port .item:focus {
+.item-link:hover .item-shadow,
+.item-link:focus .item-shadow {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -595,7 +595,8 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port .item:hover .title-overley {
+.item-link:hover .title-overley,
+.item-link:focus .title-overley {
   transform: translateY(-100%);
 }
 
